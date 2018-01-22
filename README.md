@@ -1,3 +1,34 @@
+1-we can open vs code from cmd using this command: code .
+_________________________________________________________________
+
+2-Get back to the root directory of a Windows drive (like c:\)
+use this command: cd\
+__________________________________________________________________
+
+If you are getting these types of error while doing ng serve -o
+Your global Angular CLI version (1.5.0) is greater than your local
+version (1.3.1). The local Angular CLI version is used.
+
+Please find the fix below:-
+
+3- how to uninstall old angular cli versions:
+
+npm uninstall -g angular-cli
+npm cache clean
+__________________________________________________________________
+
+4- re-install angular cli
+
+global package:
+npm install -g @angular/cli@latest
+
+local package:
+npm install --save-dev @angular/cli@latest
+______________________________________________________________________
+
+read URL: https://www.techiediaries.com/updating-angular-cli-projects/
+______________________________________________________________________
+
 # PassingData
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
